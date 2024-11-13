@@ -1,0 +1,63 @@
+body {
+    background-color: #fce4ec; /* Light pastel pink */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1, h3 {
+    color: #8e24aa; /* Pastel purple */
+    text-align: center;
+}
+
+button {
+    background-color: #f48fb1; /* Light pink */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ad1457; /* Darker pink */
+}
+
+form {
+    margin: 20px 0;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.category-card {
+    background: #ffffff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.category-card h3 {
+    color: #8e24aa;
+}
+
+@media (max-width: 768px) {
+    .product-card {
+        flex: 1 1 calc(50% - 20px); /* Two products per row on smaller screens */
+    }
+}
+@media (max-width: 480px) {
+    .product-card {
+        flex: 1 1 100%; /* One product per row on mobile screens */
+    }
+}
+
